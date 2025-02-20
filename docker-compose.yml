@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  app:
+    container_name: html-template
+    image: lyeng/health_to_go:1.0.1
+    # restart: always
+    ports:
+      - "80:80"
